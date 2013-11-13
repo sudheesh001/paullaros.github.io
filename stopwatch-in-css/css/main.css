@@ -101,6 +101,7 @@ a:hover, a:active, a:focus {
 .unit {
     display: inline-block;
     float: left;
+    line-height: 1em;
     height: 1em;
     overflow: hidden;
 }
