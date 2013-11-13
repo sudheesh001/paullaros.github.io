@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+        <title>Stopwatch in pure CSS</title>
+        <meta name="author" content="Paul Laros"> <!-- Twitter: paullarosbot -->
+        <meta name="description" content="Stopwatch in pure CSS">
+        <meta name="keywords" content="Stopwatch, CSS3, Stopwatch in CSS">
+        
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body id="start">
+    	<div id="main">
+            <div class="counter">
+                <div id="hours" class="unit"></div>
+                <div class="divider">:</div>
+                <div id="minutes" class="unit"></div>
+                <div class="divider">:</div>
+                <div id="seconds" class="unit"></div>
+                <div class="divider">:</div>
+                <div id="centiseconds" class="unit"></div>
+            </div>
+            <div id="actions">
+                <a href="#start" class="btn"><i class="fa fa-play"></i></a>
+                <a href="#paused" class="btn"><i class="fa fa-pause"></i></a>
+                <a href="http://paullaros.github.io/stopwatch/" class="btn"><i class="fa fa-stop"></i></a>
+            </div>
+    	</div>
+
+        <a class="btn" href="http://twitter.com/home?status=Pure%20CSS%20Stopwatch%20http://paullaros.nl/" id="twitter" target="_blank"><i class="fa fa-twitter"></i> Share</a>
+        <a class="btn" href="css/main.css" id="viewsource" target="_blank"><i class="fa fa-code"></i> View source</a>
+
+        <script>
+            var _gaq=[['_setAccount','XXXXXXXXX'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>
